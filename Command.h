@@ -5,34 +5,25 @@
 // Constructor of the class parses a raw string into
 // the various aspects of the command class.
 
-#pragma once
+
+#ifndef COMMAND_H
+#define COMMAND_H
+
 #include <vector>
 #include <iostream>
 #include "split.h"
 
-#ifndef FLAG_SEPARATOR
 #define FLAG_SEPARATOR '-'
-#endif // !FLAG_SEPARATOR
-
-
-
-using namespace std;
-
 
 class Command
 {
 private:
-	string cmd;
-	string cmd_args;
-	vector<string> flags;
-
+	vector<string> Total;
 
 public:
 
-	Command(std::string str) {
-		
-		
+	Command(string str);
 
-
-	}
 };
+
+#endif // !COMMAND_H

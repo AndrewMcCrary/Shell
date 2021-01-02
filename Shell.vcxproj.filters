@@ -15,21 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Source.cpp">
+    <ClCompile Include="split.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\Alpha.h">
+    <ClInclude Include="Alpha.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Command.h">
+    <ClInclude Include="Command.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Flag.h">
+    <ClInclude Include="Flag.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\split.h">
+    <ClInclude Include="split.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

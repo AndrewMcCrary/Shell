@@ -139,13 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Source.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="split.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\Alpha.h" />
-    <ClInclude Include="Source\Command.h" />
-    <ClInclude Include="Source\Flag.h" />
-    <ClInclude Include="Source\split.h" />
+    <ClInclude Include="Alpha.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Flag.h" />
+    <ClInclude Include="split.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

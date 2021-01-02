@@ -1,11 +1,9 @@
 //
-// substring.h
+// split.cpp
 //
 // Complete
 
-#pragma once
-#include <iostream>
-#include <vector>
+#include "split.h"
 
 using namespace std;
 
