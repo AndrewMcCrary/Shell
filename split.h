@@ -9,6 +9,6 @@
 #include <iostream>
 #include <vector>
 
-vector<string> split(string str, const char Delim);
+std::vector<std::string> split(std::string str, const char Delim);
 
 #endif // !SPLIT_H

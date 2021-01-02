@@ -1,10 +1,7 @@
 //
 // Command.h
 //
-
-// Constructor of the class parses a raw string into
-// the various aspects of the command class.
-
+//
 
 #ifndef COMMAND_H
 #define COMMAND_H
@@ -14,15 +11,20 @@
 #include "split.h"
 
 #define FLAG_SEPARATOR '-'
+#define SPACE ' '
 
-class Command
-{
+class Command {
 private:
-	vector<string> Total;
+	std::vector<std::string> CmdFlg;				// Vector separated by the flag separator
+	std::vector<std::vector<std::string>> Total;
+
+	// [0] Command, args,...
+	// [1] Flag1, args,...
+	// [2] Flag2, args,...
+	// ...
 
 public:
-
-	Command(string str);
+	Command(std::string str);
 
 };
 

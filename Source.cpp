@@ -1,7 +1,4 @@
-#include <iostream>
 #include <Windows.h>
-#include "Alpha.h"
-
 
 int main(void) {
 

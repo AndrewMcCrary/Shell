@@ -7,15 +7,14 @@
 
 using namespace std;
 
-class Command
-{
-private:
-	vector<string> Total;
+Command::Command(string str) {
+	CmdFlg = split(str, FLAG_SEPARATOR);
 
-public:
-
-	Command(string str) {
-
+	for (int i = 0; i < CmdFlg.size(); i++) {
+		Total[i] = split(CmdFlg[i], SPACE);
 	}
 
-};
+
+
+
+}
