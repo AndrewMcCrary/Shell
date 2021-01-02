@@ -20,16 +20,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\Engine\Arguments.h">
+    <ClInclude Include="Source\Alpha.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Engine\Parse.h">
+    <ClInclude Include="Source\Command.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Command.h">
+    <ClInclude Include="Source\Flag.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Engine\Flag.h">
+    <ClInclude Include="Source\split.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,5 +1,0 @@
-//
-// Arguments.h
-//
-
-#pragma once

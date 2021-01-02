@@ -142,10 +142,10 @@
     <ClCompile Include="Source\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Command.h" />
-    <ClInclude Include="Source\Engine\Arguments.h" />
-    <ClInclude Include="Source\Engine\Flag.h" />
-    <ClInclude Include="Source\Engine\Parse.h" />
+    <ClInclude Include="Source\Alpha.h" />
+    <ClInclude Include="Source\Command.h" />
+    <ClInclude Include="Source\Flag.h" />
+    <ClInclude Include="Source\split.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
